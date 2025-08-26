@@ -32,6 +32,14 @@ application:
         path: 'https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt' #必要参数: 规则url，仅支持 http/https，不限定响应内容格式
         type: hosts                       #可选参数: 规则类型：easylist (默认)、dnsmasq、clash、smartdns、hosts
 
+      - name: 'adblockfilters|中文规则'               #可选参数: 规则名称，如无将使用 path 作为名称
+        path: 'https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt' #必要参数: 规则url，仅支持 http/https，不限定响应内容格式
+        type: hosts
+
+      - name: '10007'               #可选参数: 规则名称，如无将使用 path 作为名称
+        path: 'https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward' #必要参数: 规则url，仅支持 http/https，不限定响应内容格式
+        type: hosts
+
       - name: '黑厂规则'
         path: 'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.oppo-realme.txt'
 
