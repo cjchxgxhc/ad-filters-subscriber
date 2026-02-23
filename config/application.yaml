@@ -9,24 +9,12 @@ application:
       path: https://easylist.to/easylist/easyprivacy.txt
       type: easylist
 
-    - name: AdGuard URL跟踪过滤器
-      path: https://filters.adtidy.org/extension/ublock/filters/17_optimized.txt
-      type: easylist
-
     - name: AdGuard 恼人广告过滤器
       path: https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt
       type: easylist
 
     - name: NoAppDownload
       path: https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt
-      type: easylist
-
-    - name: AdGuard Social Media filter
-      path: https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt
-      type: easylist
-
-    - name: AdGuard Cookie Notices filter
-      path: https://filters.adtidy.org/extension/ublock/filters/18_optimized.txt
       type: easylist
 
 
