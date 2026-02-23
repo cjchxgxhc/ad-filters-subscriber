@@ -17,21 +17,25 @@ application:
       path: https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt
       type: easylist
 
-    - name: 混合更新
-      path: https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt
-      type: easylist
-
     - name: NoAppDownload
       path: https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt
+      type: easylist
+
+    - name: AdGuard Social Media filter
+      path: https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt
+      type: easylist
+
+    - name: AdGuard Cookie Notices filter
+      path: https://filters.adtidy.org/extension/ublock/filters/18_optimized.txt
       type: easylist
 
 
   output:
     file_header: |
-      Title: xndeye adblock list of ${type}
+      Title: Additional List
       Total Size: ${total}
       Last Modified: ${date}
-      Homepage: https://github.com/xndeye/adblock_list
+      Homepage: https://github.com/cjchxgxhc/ad-filters-subscriber
 
     files:
       - name: easylist.txt
